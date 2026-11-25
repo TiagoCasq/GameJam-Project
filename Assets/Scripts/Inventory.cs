@@ -4,8 +4,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Inventory", menuName = "New Inventory")]
 public class Inventory : ScriptableObject
 {
-    [SerializeField] string[] Inventory_Items = new string[10];
-    [SerializeField] int Max_Capacity = 10;
+    [SerializeField] private string[] Inventory_Items = new string[10];
+    [SerializeField] private int Max_Capacity = 10;
 
     public int GetSlotsFilled()
     {

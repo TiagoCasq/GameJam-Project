@@ -5,6 +5,7 @@ public class PlayerCameraControl : MonoBehaviour
 {
 
     [SerializeField] float sensitivity;
+    [SerializeField] 
     private float xRotation = 0f;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -17,8 +18,9 @@ public class PlayerCameraControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float mouseY = Input.GetAxis("Mouse Y") * sensitivity;
-        float mouseX = Input.GetAxis("Mouse X") * sensitivity;
+        
+        float mouseY = Input.GetAxis("Mouse Y") * sensitivity * Time.timeScale;
+        float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.timeScale;
 
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);

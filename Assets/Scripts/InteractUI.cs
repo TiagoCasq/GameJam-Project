@@ -23,6 +23,7 @@ public class InteractUI : MonoBehaviour
         }
 
         InteractionManager = this;
+        gameObject.GetComponent<Canvas>().enabled = true;
     }
 
     public void DisplayText(string ToText)

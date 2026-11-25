@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\taaca\\OneDrive\\Desktop\\Code Workplace\\CTeSP VideoJogos\\GameJam\\DesignPJ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\taaca\\onedrive\\desktop\\code workplace\\ctesp videojogos\\gamejam\\designpj\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\taaca\\onedrive\\desktop\\code workplace\\ctesp videojogos\\gamejam\\designpj\\assets\\scripts\\pauseuibehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pauseuibehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\taaca\\onedrive\\desktop\\code workplace\\ctesp videojogos\\gamejam\\designpj\\assets\\scripts\\playercameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\taaca\\onedrive\\desktop\\code workplace\\ctesp videojogos\\gamejam\\designpj\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\taaca\\OneDrive\\Desktop\\Code Workplace\\CTeSP VideoJogos\\GameJam\\DesignPJ\\Assets\\Scripts\\InteractUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InteractUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\taaca\\onedrive\\desktop\\code workplace\\ctesp videojogos\\gamejam\\designpj\\assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PauseUIBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\taaca\\OneDrive\\Desktop\\Code Workplace\\CTeSP VideoJogos\\GameJam\\DesignPJ\\Assets\\Scripts\\PauseUIBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PauseUIBehaviour.cs",
+              "ToolTip": "C:\\Users\\taaca\\OneDrive\\Desktop\\Code Workplace\\CTeSP VideoJogos\\GameJam\\DesignPJ\\Assets\\Scripts\\PauseUIBehaviour.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\PauseUIBehaviour.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T20:02:58.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\taaca\\OneDrive\\Desktop\\Code Workplace\\CTeSP VideoJogos\\GameJam\\DesignPJ\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\taaca\\OneDrive\\Desktop\\Code Workplace\\CTeSP VideoJogos\\GameJam\\DesignPJ\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T14:00:05.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerInteract.cs",
+              "DocumentMoniker": "C:\\Users\\taaca\\OneDrive\\Desktop\\Code Workplace\\CTeSP VideoJogos\\GameJam\\DesignPJ\\Assets\\Scripts\\PlayerInteract.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteract.cs",
+              "ToolTip": "C:\\Users\\taaca\\OneDrive\\Desktop\\Code Workplace\\CTeSP VideoJogos\\GameJam\\DesignPJ\\Assets\\Scripts\\PlayerInteract.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerInteract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T20:01:24.59Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,22 +79,22 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCameraControl.cs",
               "ToolTip": "C:\\Users\\taaca\\OneDrive\\Desktop\\Code Workplace\\CTeSP VideoJogos\\GameJam\\DesignPJ\\Assets\\Scripts\\PlayerCameraControl.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerCameraControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-24T14:45:12.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\taaca\\OneDrive\\Desktop\\Code Workplace\\CTeSP VideoJogos\\GameJam\\DesignPJ\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\taaca\\OneDrive\\Desktop\\Code Workplace\\CTeSP VideoJogos\\GameJam\\DesignPJ\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAUwDsAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "InteractUI.cs",
+              "DocumentMoniker": "C:\\Users\\taaca\\OneDrive\\Desktop\\Code Workplace\\CTeSP VideoJogos\\GameJam\\DesignPJ\\Assets\\Scripts\\InteractUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractUI.cs",
+              "ToolTip": "C:\\Users\\taaca\\OneDrive\\Desktop\\Code Workplace\\CTeSP VideoJogos\\GameJam\\DesignPJ\\Assets\\Scripts\\InteractUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InteractUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T14:00:05.883Z",
+              "WhenOpened": "2026-11-25T19:53:16.191Z",
               "EditorCaption": ""
             }
           ]
