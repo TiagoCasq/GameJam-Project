@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\rodri\\GameJam-Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|c:\\users\\rodri\\gamejam-project\\assets\\scripts\\double_doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\double_doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|c:\\users\\rodri\\gamejam-project\\assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|c:\\users\\rodri\\gamejam-project\\assets\\scripts\\doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|C:\\Users\\rodri\\GameJam-Project\\assets\\scripts\\doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,25 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Double_Doors.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\Double_Doors.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Double_Doors.cs",
+              "ToolTip": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\Double_Doors.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Double_Doors.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T13:55:47.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\Inventory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory.cs",
               "ToolTip": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\Inventory.cs",
               "RelativeToolTip": "Assets\\Scripts\\Inventory.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAA0wFMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwFMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-25T23:40:22.556Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Doors.cs",
               "DocumentMoniker": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\Doors.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Doors.cs",
               "ToolTip": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\Doors.cs",
               "RelativeToolTip": "Assets\\Scripts\\Doors.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAwwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-25T23:06:52.56Z",
               "EditorCaption": ""
