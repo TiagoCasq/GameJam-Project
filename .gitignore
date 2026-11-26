@@ -1,0 +1,11 @@
+/Library
+/Logs
+/Logs
+/Logs
+*.log
+*.log
+*.log
+/Temp
+/Temp/obj
+/Temp
+/UserSettings
