@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Inventory
   m_EditorClassIdentifier: Assembly-CSharp::Inventory
   Inventory_Items:
-  - Collectible 2
-  - Collectible 1
-  - Collectible 2
-  - Collectible 1
-  - Collectible 2
-  - Collectible 1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 

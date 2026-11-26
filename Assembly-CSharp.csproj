@@ -64,10 +64,15 @@
     <Compile Include="Assets\Scripts\PauseUIBehaviour.cs" />
     <Compile Include="Assets\Scripts\ToggleAble.cs" />
     <Compile Include="Assets\Scripts\Interaction.cs" />
+    <Compile Include="Assets\Scripts\ClueBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Clues.cs" />
     <Compile Include="Assets\Scripts\Collectible.cs" />
+    <Compile Include="Assets\Scripts\SettingsUIBehaviour.cs" />
     <Compile Include="Assets\Scripts\PlayerCameraControl.cs" />
+    <Compile Include="Assets\Scripts\Settings.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\PlayerInteract.cs" />
+    <Compile Include="Assets\Scripts\MainInput.cs" />
     <Compile Include="Assets\Scripts\InteractUI.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />

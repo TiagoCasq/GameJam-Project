@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\rodri\\GameJam-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|c:\\users\\rodri\\gamejam-project\\assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|c:\\users\\rodri\\gamejam-project\\assets\\scripts\\clues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\clues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|c:\\users\\rodri\\gamejam-project\\assets\\scripts\\doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|C:\\Users\\rodri\\GameJam-Project\\assets\\scripts\\maininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|C:\\Users\\rodri\\GameJam-Project\\assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|C:\\Users\\rodri\\GameJam-Project\\assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11E96C19-0C4E-C257-32A6-CDC305DAB303}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\Inventory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory.cs",
               "ToolTip": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\Inventory.cs",
               "RelativeToolTip": "Assets\\Scripts\\Inventory.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAA0wFMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-25T23:40:22.556Z",
+              "WhenOpened": "2026-11-26T16:51:07.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Clues.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\Clues.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Clues.cs",
+              "ToolTip": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\Clues.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Clues.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T16:49:01.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Doors.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\Doors.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Doors.cs",
-              "ToolTip": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\Doors.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Doors.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAwwBwAAAAAAAAAAAAAAA==",
+              "Title": "MainInput.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\MainInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainInput.cs",
+              "ToolTip": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\MainInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-25T23:06:52.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-26T15:09:15.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerInteract.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\PlayerInteract.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteract.cs",
+              "ToolTip": "C:\\Users\\rodri\\GameJam-Project\\Assets\\Scripts\\PlayerInteract.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerInteract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T15:13:36.376Z"
             }
           ]
         }
