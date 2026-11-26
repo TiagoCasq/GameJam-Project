@@ -46,7 +46,9 @@ public class Double_Doors : MonoBehaviour, Interaction
         Left_Door.rotation = Quaternion.Euler(0, LGoalAngle, 0);
         Open = !Open;
         Animating = false;
-
+        tag = "Interactible";
+        Right_Door.gameObject.tag = "Interactible";
+        Left_Door.gameObject.tag = "Interactible";
     }
     
 
@@ -55,6 +57,9 @@ public class Double_Doors : MonoBehaviour, Interaction
         if (!Animating)
         {
             Animating = true;
+            tag = "Untagged";
+            Right_Door.gameObject.tag = "Untagged";
+            Left_Door.gameObject.tag = "Untagged";
             StartCoroutine(DoorAnim());
         }
 

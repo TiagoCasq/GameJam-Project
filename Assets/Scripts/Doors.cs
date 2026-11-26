@@ -49,6 +49,7 @@ public class Doors : MonoBehaviour, Interaction
         transform.rotation = Quaternion.Euler(0, GoalAngle, 0);
         Open = !Open;
         Animating = false;
+        tag = "Interactible";
 
     }
     
@@ -88,6 +89,7 @@ public class Doors : MonoBehaviour, Interaction
         if (!Animating)
         {
             Animating = true;
+            tag = "Untagged";
             StartCoroutine(DoorAnim());
         }
 
