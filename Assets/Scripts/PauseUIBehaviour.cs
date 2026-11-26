@@ -4,10 +4,13 @@ using UnityEngine.InputSystem;
 public class PauseUIBehaviour : MonoBehaviour
 {
     [SerializeField] private InputActionAsset InputActions;
-
+    [SerializeField] private Canvas settingsUI;
+    [SerializeField] private Canvas mainUI;
+    [SerializeField] private Canvas interactUI;
     private bool gamePaused = false;
     private float pauseCooldown = 0;
     private bool pressed = false;
+    private bool onSettings = false;
     private InputAction pauseAction;
     private Canvas pauseCanvas;
 
@@ -22,6 +25,9 @@ public class PauseUIBehaviour : MonoBehaviour
     private void OpenPauseUI()
     {
         pauseCanvas.enabled = true;
+        mainUI.enabled = false;
+        interactUI.enabled = false;
+
         gamePaused = true;
         Time.timeScale = 0;
 
@@ -36,15 +42,19 @@ public class PauseUIBehaviour : MonoBehaviour
 
         if (btnType == "Resume")
         {
+            mainUI.enabled = true;
+            interactUI.enabled = true;
+
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+            gamePaused = false;
             Time.timeScale = 1;
         }
         else if (btnType == "Settings")
         {
-
-
-
+            pauseCanvas.enabled = false;
+            settingsUI.enabled = true;
+            onSettings = true;
         }
         else if (btnType == "Quit")
         {
@@ -54,10 +64,15 @@ public class PauseUIBehaviour : MonoBehaviour
 
     }
 
+    public void DisableSettings()
+    {
+        onSettings = false;
+    }
+
     // Update is called once per frame
     void Update()
     {
-        if(!pressed)
+        if(!pressed && !onSettings)
         {
             if (pauseAction.WasPressedThisFrame() && gamePaused == false)
             {
