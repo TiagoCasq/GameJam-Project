@@ -1,5 +1,7 @@
+using NUnit.Framework;
 using System;
 using UnityEngine;
+using System.Collections.Generic;
 
 [CreateAssetMenu(fileName = "Inventory", menuName = "New Inventory")]
 public class Inventory : ScriptableObject
@@ -16,6 +18,10 @@ public class Inventory : ScriptableObject
             if (item != "")
             {
                 LastPos += 1;
+            }
+            else
+            {
+                break;
             }
         }
 
@@ -50,10 +56,40 @@ public class Inventory : ScriptableObject
         }
     }
 
+    private void Sort()
+    {
+        List<int> EmptySlots = new List<int>();
+        int index = 0;
+
+        foreach (var item in Inventory_Items)
+        {
+            if (item == "")
+            {
+                EmptySlots.Add(index);
+            }
+            index++;
+        }
+
+        index = 0;
+
+        foreach (var item in Inventory_Items)
+        {
+            if (item != "" && index > EmptySlots[0])
+            {
+                Inventory_Items[EmptySlots[0]] = item;
+                Inventory_Items[index] = "";
+                EmptySlots.RemoveAt(0);
+                EmptySlots.Add(index);
+                EmptySlots.Sort();
+            }
+
+            index++;
+        }
+    }
+
     public void RemoveItem(int ToRemove)
     {
-        Inventory_Items.SetValue(null, ToRemove);
-
-        Array.Sort(Inventory_Items);
+        Inventory_Items.SetValue("", ToRemove);
+        Sort();
     }
 }
