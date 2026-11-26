@@ -5,7 +5,8 @@ public class PlayerCameraControl : MonoBehaviour
 {
 
     [SerializeField] float sensitivity;
-    [SerializeField] 
+    [SerializeField] Settings settings;
+    private Camera cam;
     private float xRotation = 0f;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -13,6 +14,15 @@ public class PlayerCameraControl : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        cam = GetComponent<Camera>();
+        GetFOV();
+    }
+
+    public void GetFOV()
+    {
+
+        cam.fieldOfView = settings.GetFOVValue();
+
     }
 
     // Update is called once per frame
